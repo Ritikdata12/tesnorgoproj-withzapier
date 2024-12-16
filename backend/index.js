@@ -13,7 +13,6 @@ const app = express();
 connectDB();
 
 
-// Middleware
 app.use(express.json());
 app.use(session({ secret: 'secret', resave: false, saveUninitialized: true }));
 app.use(passport.initialize());

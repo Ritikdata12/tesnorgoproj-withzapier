@@ -117,9 +117,7 @@ const HeroSection = () => {
       }, []);
 
 
-  const handlesubmit =()=>{
-   window.location.href = "/student"
-  }
+
 
   return (
     <>

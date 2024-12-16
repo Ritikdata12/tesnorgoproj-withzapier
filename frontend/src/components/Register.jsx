@@ -68,7 +68,7 @@ const Register = () => {
       }
     } catch (error) {
       console.error("Error during Google Sign-In:", error.message);
-      alert("Google Sign-In failed. Please try again.");
+      alert("please signin again");
     }
   };
   
