@@ -5,6 +5,7 @@ import { MdAccountCircle } from "react-icons/md";
 import logo from "../assets/logo.png";
 
 import { UserContext } from '../App';
+import ContactForm from './Contactus';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -77,13 +78,11 @@ const Header = () => {
               </a>
             </li>
 
-           
 
             <li>
               <a
-                href="/Contactus"
-                className={activeLink === '/Contactus' ? 'active' : ''}
-                onClick={() => handleLinkClick('/Contactus')}
+                href= "ContactForm"
+                
               >
                 Contact us
               </a>
