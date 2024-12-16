@@ -146,12 +146,13 @@ This project is a full-stack application that helps users manage their invoices 
 
 ## Screenshots
 
-### Login Page:
-A user-friendly Google login interface.
-![Alt text](image-2.png)
 
 ### Invoice List:
 Displays a comprehensive list of invoices with relevant details.
+![Alt text](image-2.png)
+
+### Login Page:
+A user-friendly Google login interface.
 ![Alt text](image-1.png)
 
 ---
